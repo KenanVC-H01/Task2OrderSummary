@@ -42,11 +42,13 @@ body {
 
 .card-body > h2 {
     color: #222944;
-    font-weight: 700;
+    font-weight: 900;
 }
 
 .card-body > p {
     color: #8c909c;
+    font-weight: 500;
+    font-size: small;
 }
 
 .card-body .plan {
@@ -69,10 +71,14 @@ body {
 
 .plan .details h4 {
     color: #222944;
+    font-weight: 900;
+    font-size: 14px;
 }
 
 .plan .details p {
     color: #888fac;
+    font-weight: 500;
+    font-size: small;
 }
 
 .plan a {
@@ -90,17 +96,24 @@ body {
 .card .btn {
     color: hsl(224, 23%, 55%);
     text-decoration: none;
-    font-weight: 600;
-    padding: .5em;
-    transition: .3s;
-    border-radius: .5em;
+    font-weight: 700;
+    font-size: small;
+    padding: .9em;
+    border-radius: .7em;
 }
 
 .btn.pay {
     background-color: hsl(245, 75%, 52%);
-    color: white;
+    color: hsl(225, 100%, 98%);
+    font-weight: 700;
+    box-shadow: 0 15px 30px 0.1px hsl(0, 0%, 81%);
 }
 
-.btn:hover {
-    box-shadow: 0 5px 1em #766cf13c;
+.btn.pay:hover {
+    background-color: hsl(245, 67%, 60%);
+    color: hsl(225, 100%, 98%);
+}
+
+.btn:hover{
+    color: hsl(223, 47%, 23%);
 }
